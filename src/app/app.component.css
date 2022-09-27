@@ -1,0 +1,53 @@
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+    text-align: center;
+  }
+  h2, h3 {
+    color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+  }
+  body {
+    margin: 2em;
+  }
+  body, input[type="text"], button {
+    color: #888;
+    font-family: Cambria, Georgia;
+  }
+  /* everywhere else */
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .linkcars1 {
+    margin-left: 0.5px;
+    padding: 20px;
+    text-align: center;
+    color: #eee;
+    max-height: 120px;
+    min-width: 120px;
+    background-color: #9e9e9e;
+    border-radius: 2px;
+    text-decoration: none;
+    
+
+  }
+  .linkcars2 {
+    margin-left: 50px;
+    padding: 20px;
+    text-align: center;
+    color: #eee;
+    max-height: 120px;
+    min-width: 120px;
+    background-color: #9e9e9e;
+    border-radius: 2px;
+    text-decoration: none;
+    
+
+  }
+  .linkcars:hover {
+    background-color: #eee;
+    cursor: pointer;
+    color: #607d8b;
+  }

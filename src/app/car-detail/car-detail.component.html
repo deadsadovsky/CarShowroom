@@ -1,0 +1,31 @@
+<div *ngIf = "car">
+    <h2>
+       Детальная информация о {{car.brand}} {{car.model}} 
+    </h2>
+    <div><span>id:</span>{{car.id}}</div>
+    <div>
+        
+        <label>
+            Марка:
+            <input [(ngModel)]="car.brand" placeholder="brand"/>
+        </label>
+        
+        <label>   
+            Модель:
+            <input [(ngModel)]="car.model" placeholder="model"/>
+           
+        </label>
+        <label>
+            Цвет:
+            <input [(ngModel)]="car.color" placeholder="color"/>
+        </label>
+        <label>
+            Цена:
+            <input [(ngModel)]="car.price" placeholder="price"/>
+        </label>
+        
+    </div>
+</div>
+<button (click)="goBack()" class="btn">go back</button>
+<button (click)="save()">save</button>
+        
